@@ -1,0 +1,14 @@
+[
+  {
+    "portalUrl": "https://learn-intern-itl.maps.arcgis.com",
+    "clientId": "f6gPuJtwkp2iVOwN",
+    "supportsOAuth": true,
+    "isWebTier": false
+  },
+  {
+    "portalUrl": "https://cloud.intelli.com.vn/portal",
+    "clientId": "NEqgO8y2KnUcKUIi",
+    "supportsOAuth": true,
+    "isWebTier": false
+  }
+]
