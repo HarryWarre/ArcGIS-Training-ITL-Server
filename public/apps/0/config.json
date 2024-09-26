@@ -45,11 +45,27 @@
           "setting": {
             "heightMode": "fixed"
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_19",
+          "bbox": {
+            "left": "0px",
+            "right": "800px",
+            "top": "760px",
+            "bottom": "1260px",
+            "width": "800px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
+          }
         }
       },
       "order": [
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_4": {
@@ -145,19 +161,117 @@
     "layout_9": {
       "content": {
         "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_18",
           "setting": {
             "heightMode": "fit"
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": "500px"
+            "height": "560px"
+          },
+          "type": "WIDGET",
+          "widgetId": "widget_22"
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_10": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_21",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "400px"
           }
         }
       },
       "type": "ROW",
+      "label": "Default",
+      "order": [
+        "1"
+      ]
+    },
+    "layout_11": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_20",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "First",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_12": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_23",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "7.4%",
+            "bottom": "84.6%",
+            "width": "100.0%",
+            "height": "8.1%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        }
+      },
+      "type": "FIXED",
+      "label": "Second",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_13": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_18",
+          "bbox": {
+            "width": "800px",
+            "height": "500px"
+          }
+        }
+      },
+      "type": "COLUMN",
       "label": "Default",
       "order": [
         "0"
@@ -274,20 +388,20 @@
       "label": "Map",
       "config": {
         "toolConfig": {
-          "canZoom": false,
+          "canZoom": true,
           "canHome": true,
-          "canSearch": false,
+          "canSearch": true,
           "canNavigation": true,
           "canLayers": true,
           "canBaseMap": true,
-          "canFullScreen": false,
-          "canScaleBar": false,
-          "canExtentNavigate": false,
-          "canSelect": false,
-          "canSelectState": false,
-          "canMeasure": false,
-          "canCompass": false,
-          "canLocate": false
+          "canFullScreen": true,
+          "canScaleBar": true,
+          "canExtentNavigate": true,
+          "canSelect": true,
+          "canSelectState": true,
+          "canMeasure": true,
+          "canCompass": true,
+          "canLocate": true
         },
         "isUseCustomMapState": false,
         "clientQueryDataSourceIds": [],
@@ -372,6 +486,165 @@
           "rootDataSourceId": "dataSource_1"
         }
       ]
+    },
+    "widget_19": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 5",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_19",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_10"
+        }
+      }
+    },
+    "widget_20": {
+      "uri": "widgets/chart-widget/",
+      "version": "1.14.0",
+      "label": "Chart Widget",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_20",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_21": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.14.0",
+      "label": "Sidebar 2",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "800px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "LEFT",
+          "offsetX": 15,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 15,
+          "height": 60,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 92px 92px 0"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_21",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_11"
+        },
+        "SECOND": {
+          "LARGE": "layout_12"
+        }
+      }
+    },
+    "widget_22": {
+      "uri": "widgets/layout/column/",
+      "version": "1.14.0",
+      "label": "Column",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_22",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_13"
+        }
+      }
+    },
+    "widget_23": {
+      "uri": "widgets/chart-dma/",
+      "version": "1.14.0",
+      "label": "Chart DMA",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_23",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -398,6 +671,6 @@
       "page_0": []
     }
   ],
-  "timestamp": 1726191659914,
+  "timestamp": 1727250482720,
   "connections": []
 }
