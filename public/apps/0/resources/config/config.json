@@ -8,7 +8,7 @@
         "LARGE": "layout_0",
         "SMALL": "layout_43"
       },
-      "isDefault": true,
+      "isDefault": false,
       "isVisible": true,
       "label": "Home",
       "icon": {
@@ -71,7 +71,7 @@
       "layout": {
         "LARGE": "layout_34"
       },
-      "isDefault": false,
+      "isDefault": true,
       "isVisible": true,
       "label": "Child Second 1",
       "header": false,
@@ -339,7 +339,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_73",
+          "widgetId": "widget_133",
           "bbox": {
             "left": "0px",
             "right": "800px",
@@ -351,23 +351,15 @@
           "setting": {
             "heightMode": "fixed"
           }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_35": {
-      "type": "FLOW",
-      "content": {
-        "0": {
+        },
+        "1": {
           "type": "WIDGET",
-          "widgetId": "widget_75",
+          "widgetId": "widget_135",
           "bbox": {
             "left": "0px",
             "right": "800px",
-            "top": "55px",
-            "bottom": "555px",
+            "top": "300px",
+            "bottom": "800px",
             "width": "800px",
             "height": 520
           },
@@ -377,168 +369,48 @@
         }
       },
       "order": [
-        "0"
-      ]
-    },
-    "layout_36": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_74",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 3,
-            "height": "500px"
-          }
-        },
-        "1": {
-          "type": "WIDGET",
-          "widgetId": "widget_116",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "left": 3,
-            "width": 8,
-            "height": 498
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
         "0",
         "1"
       ]
     },
-    "layout_37": {
+    "layout_35": {
+      "type": "FLOW",
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_76",
-          "setting": {
-            "heightMode": "fit"
-          },
+          "widgetId": "widget_127",
           "bbox": {
-            "left": 0,
-            "width": 3,
-            "height": "500px"
+            "left": "0px",
+            "right": "800px",
+            "top": "0px",
+            "bottom": "500px",
+            "width": "800px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
           }
         },
         "1": {
           "type": "WIDGET",
-          "widgetId": "widget_77",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
+          "widgetId": "widget_130",
           "bbox": {
-            "left": 3,
-            "width": 5,
-            "height": "275px"
+            "left": "0px",
+            "right": "800px",
+            "top": "300px",
+            "bottom": "800px",
+            "width": "800px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
           }
         }
       },
-      "type": "ROW",
-      "label": "Default",
       "order": [
         "0",
         "1"
       ]
-    },
-    "layout_38": {
-      "type": "FIXED",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "22px",
-            "top": "50%",
-            "width": "50px",
-            "height": "50px",
-            "right": "87.7%",
-            "bottom": "22.0%"
-          },
-          "widgetId": "widget_78",
-          "setting": {
-            "lockParent": true,
-            "vCenter": true,
-            "hCenter": false,
-            "autoProps": {
-              "width": "CUSTOM",
-              "height": "CUSTOM",
-              "top": false,
-              "bottom": true,
-              "left": false,
-              "right": true
-            },
-            "heightMode": "ratio",
-            "aspectRatio": 1
-          },
-          "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "85.00px",
-            "width": "36.5%",
-            "height": "40px",
-            "right": "170.00px",
-            "top": "50%",
-            "bottom": "5.00px"
-          },
-          "widgetId": "widget_79",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "width": true,
-              "height": "CUSTOM",
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true,
-            "hCenter": false
-          },
-          "isPending": false
-        },
-        "2": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 400,
-            "top": "50%",
-            "width": "120.00px",
-            "height": "34.88%",
-            "right": "30.00px",
-            "bottom": "28.4944%"
-          },
-          "widgetId": "widget_80",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "width": false,
-              "height": false,
-              "left": true,
-              "right": false,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true,
-            "hCenter": false
-          }
-        }
-      },
-      "order": [
-        "0",
-        "1",
-        "2"
-      ],
-      "label": "Default"
     },
     "layout_40": {
       "type": "FLOW",
@@ -706,18 +578,8 @@
           },
           "children": [
             "0",
-            "7",
-            "3"
+            "7"
           ]
-        },
-        "3": {
-          "gridType": 3,
-          "type": "WIDGET",
-          "parent": "2",
-          "bbox": {
-            "width": 50
-          },
-          "widgetId": "widget_20"
         },
         "4": {
           "gridType": 1,
@@ -754,7 +616,7 @@
           "gridType": 1,
           "parent": "2",
           "bbox": {
-            "width": 100
+            "width": 150
           },
           "children": [
             "5",
@@ -820,7 +682,7 @@
             "top": "0px",
             "bottom": "500px",
             "width": "800px",
-            "height": 520
+            "height": "700px"
           },
           "setting": {
             "heightMode": "fixed"
@@ -847,7 +709,21 @@
         },
         "1": {
           "type": "WIDGET",
-          "widgetId": "widget_115",
+          "widgetId": "widget_122",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "500px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_123",
           "setting": {
             "autoProps": {
               "height": "STRETCH"
@@ -855,8 +731,8 @@
           },
           "bbox": {
             "left": 3,
-            "width": 9,
-            "height": "471px"
+            "width": 2,
+            "height": 54
           }
         }
       },
@@ -864,6 +740,7 @@
       "label": "Default",
       "order": [
         "0",
+        "2",
         "1"
       ]
     },
@@ -986,24 +863,22 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_20",
+          "widgetId": "widget_121",
           "bbox": {
             "left": "0.0%",
             "right": "0.0%",
             "top": "0.0%",
-            "bottom": "0.0%",
+            "bottom": "16.0%",
             "width": "100.0%",
-            "height": "100.0%"
+            "height": "84.0%"
           },
           "setting": {
             "autoProps": {
               "right": false,
               "left": true,
-              "top": true,
-              "bottom": false
-            },
-            "vCenter": false,
-            "hCenter": false
+              "top": false,
+              "bottom": true
+            }
           }
         }
       },
@@ -1012,13 +887,165 @@
       "order": [
         "0"
       ]
+    },
+    "layout_60": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_128",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 9,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_129",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 9,
+            "width": 3,
+            "height": "54px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_61": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_131",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 6,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_132",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 6,
+            "width": 6,
+            "height": "498px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_62": {
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_138",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 4,
+            "height": "54px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_139",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 6,
+            "width": 6,
+            "height": "498px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "1",
+        "2"
+      ]
+    },
+    "layout_63": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_136",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 4,
+            "width": 8,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_137",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 4,
+            "height": "498px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
     }
   },
   "exbVersion": "1.14.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/default/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1280,
+        "height": 800
+      }
+    }
   },
   "template": "blankscrollable",
   "widgets": {
@@ -1123,43 +1150,6 @@
       ],
       "label": "tab-table-view 3"
     },
-    "widget_20": {
-      "uri": "widgets/chart-widget/",
-      "version": "1.14.0",
-      "label": "Chart Widget",
-      "config": {
-        "outfieldsSetting": {
-          "DHKH": [
-            "CODONGHO"
-          ],
-          "DMA": [
-            "MADMA"
-          ],
-          "ThuyDai": [
-            "TINHTRANG"
-          ]
-        }
-      },
-      "id": "widget_20",
-      "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
-          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
-          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cbe-layer-21",
-          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cbe-layer-21",
-          "rootDataSourceId": "dataSource_1"
-        }
-      ]
-    },
     "widget_69": {
       "uri": "widgets/layout/row/",
       "version": "1.14.0",
@@ -1181,221 +1171,6 @@
           "LARGE": "layout_32"
         }
       }
-    },
-    "widget_73": {
-      "uri": "widgets/layout/row/",
-      "version": "1.14.0",
-      "label": "Block 11",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_73",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_36"
-        }
-      }
-    },
-    "widget_74": {
-      "uri": "widgets/custom-sidebar-widget-setLink/",
-      "version": "1.14.0",
-      "label": "Custom Sidebar Widget 7",
-      "config": {
-        "exampleConfigProperty": "test"
-      },
-      "id": "widget_74"
-    },
-    "widget_75": {
-      "uri": "widgets/layout/row/",
-      "version": "1.14.0",
-      "label": "Block 12",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_75",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_37"
-        }
-      }
-    },
-    "widget_76": {
-      "uri": "widgets/custom-sidebar-widget-setLink/",
-      "version": "1.14.0",
-      "label": "Custom Sidebar Widget 8",
-      "config": {
-        "exampleConfigProperty": "test"
-      },
-      "id": "widget_76"
-    },
-    "widget_77": {
-      "uri": "widgets/common/list/",
-      "version": "1.14.0",
-      "label": "List",
-      "config": {
-        "maxItems": 100,
-        "space": 10,
-        "verticalSpace": 10,
-        "horizontalSpace": 10,
-        "itemsPerPage": 10,
-        "isItemStyleConfirm": false,
-        "isInitialed": true,
-        "pageStyle": "SCROLL",
-        "itemStyle": "STYLE5",
-        "hoverType": "HOVER0",
-        "selectedStyle": "STYLE0",
-        "differentOddEven": false,
-        "scrollBarOpen": true,
-        "direction": "VERTICAL",
-        "alignType": "CENTER",
-        "scrollStep": 2,
-        "cardConfigs": {
-          "DEFAULT": {
-            "cardSize": {
-              "LARGE": {
-                "width": 660,
-                "height": 88
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Custom"
-          },
-          "HOVER": {
-            "cardSize": {
-              "LARGE": {
-                "width": 660,
-                "height": 88
-              }
-            },
-            "enable": false,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Auto"
-          },
-          "SELECTED": {
-            "cardSize": {
-              "LARGE": {
-                "width": 660,
-                "height": 88
-              }
-            },
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--primary-500)",
-                "width": "1px"
-              }
-            },
-            "selectionMode": "SINGLE",
-            "listLayout": "Auto"
-          }
-        },
-        "style": {
-          "id": "default"
-        },
-        "isCheckEmptyTemplate": false,
-        "searchFields": null,
-        "filters": null,
-        "sorts": null,
-        "isShowAutoRefresh": false,
-        "layoutType": "ROW",
-        "keepAspectRatio": false
-      },
-      "id": "widget_77",
-      "useDataSourcesEnabled": true,
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_38"
-        }
-      }
-    },
-    "widget_78": {
-      "uri": "widgets/common/image/",
-      "version": "1.14.0",
-      "label": "Image",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "cropParam": {
-              "cropShape": "circle",
-              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
-              "svgViewBox": "0 0 28 28"
-            }
-          }
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_78"
-    },
-    "widget_79": {
-      "uri": "widgets/common/text/",
-      "version": "1.14.0",
-      "label": "Text",
-      "config": {
-        "text": "",
-        "placeholder": "<p><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true,
-          "overflow": "scroll",
-          "padding": "p-1"
-        }
-      },
-      "id": "widget_79"
-    },
-    "widget_80": {
-      "uri": "widgets/common/button/",
-      "version": "1.14.0",
-      "label": "Button",
-      "config": {
-        "functionConfig": {
-          "text": "Button",
-          "toolTip": "",
-          "linkParam": {}
-        },
-        "styleConfig": {
-          "name": "Default",
-          "themeStyle": {},
-          "customStyle": {
-            "regular": {},
-            "hover": {},
-            "clicked": {}
-          }
-        }
-      },
-      "id": "widget_80"
     },
     "widget_93": {
       "uri": "widgets/layout/row/",
@@ -1741,466 +1516,10 @@
         }
       ]
     },
-    "widget_115": {
-      "uri": "widgets/chartcustom/",
-      "version": "1.14.0",
-      "label": "Chart Custom",
-      "config": {
-        "tools": {
-          "cursorEnable": true
-        },
-        "isParseDateEnabled": true,
-        "parseType": "Year",
-        "template": "column",
-        "webChart": {
-          "version": "7.3.1",
-          "id": "column",
-          "type": "chart",
-          "dataSource": {
-            "query": {
-              "groupByFieldsForStatistics": [
-                "NGAYLAPDAT"
-              ],
-              "outStatistics": [
-                {
-                  "statisticType": "count",
-                  "onStatisticField": "OBJECTID",
-                  "outStatisticFieldName": "count_of_OBJECTID"
-                }
-              ],
-              "orderByFields": [
-                "NGAYLAPDAT ASC"
-              ],
-              "where": "KICHCO={value}"
-            }
-          },
-          "sortLabelsBy": "originalValue",
-          "rotated": false,
-          "series": [
-            {
-              "type": "barSeries",
-              "id": "0",
-              "name": "0",
-              "x": "NGAYLAPDAT",
-              "y": "OBJECTID",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#5E8FD0",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "dataTooltipVisible": true,
-              "query": {
-                "where": "KICHCO=0"
-              }
-            },
-            {
-              "type": "barSeries",
-              "id": "100",
-              "name": "100",
-              "x": "NGAYLAPDAT",
-              "y": "OBJECTID",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#77B484",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "dataTooltipVisible": true,
-              "query": {
-                "where": "KICHCO=100"
-              }
-            },
-            {
-              "type": "barSeries",
-              "id": "125",
-              "name": "125",
-              "x": "NGAYLAPDAT",
-              "y": "OBJECTID",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#DF6B35",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "dataTooltipVisible": true,
-              "query": {
-                "where": "KICHCO=125"
-              }
-            },
-            {
-              "type": "barSeries",
-              "id": "150",
-              "name": "150",
-              "x": "NGAYLAPDAT",
-              "y": "OBJECTID",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#DBCF4E",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "dataTooltipVisible": true,
-              "query": {
-                "where": "KICHCO=150"
-              }
-            },
-            {
-              "type": "barSeries",
-              "id": "__other-split-value__",
-              "name": "Undefined",
-              "x": "NGAYLAPDAT",
-              "y": "OBJECTID",
-              "colorType": "singleColor",
-              "stackedType": "sideBySide",
-              "fillSymbol": {
-                "type": "esriSFS",
-                "style": "esriSFSSolid",
-                "color": "#D6D6D6",
-                "outline": {
-                  "type": "esriSLS",
-                  "style": "esriSLSSolid",
-                  "color": "var(--light-900)",
-                  "width": 0
-                }
-              },
-              "dataLabels": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-600)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 10,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "top"
-                }
-              },
-              "rotated": false,
-              "dataTooltipVisible": true,
-              "query": {
-                "where": "KICHCO=__other-split-value__"
-              }
-            }
-          ],
-          "axes": [
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-800)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-500)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "date",
-                "intlOptions": {}
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--light-800)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--light-300)",
-                "width": 0
-              }
-            },
-            {
-              "type": "chartAxis",
-              "visible": true,
-              "isLogarithmic": false,
-              "title": {
-                "type": "chartText",
-                "visible": false,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-800)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "labels": {
-                "type": "chartText",
-                "visible": true,
-                "content": {
-                  "type": "esriTS",
-                  "color": "var(--dark-500)",
-                  "font": {
-                    "family": "Avenir Next",
-                    "size": 14,
-                    "style": "normal",
-                    "weight": "normal",
-                    "decoration": "none"
-                  },
-                  "horizontalAlignment": "center",
-                  "verticalAlignment": "middle"
-                }
-              },
-              "valueFormat": {
-                "type": "number",
-                "intlOptions": {
-                  "style": "decimal",
-                  "useGrouping": true,
-                  "minimumFractionDigits": 0,
-                  "maximumFractionDigits": 0
-                }
-              },
-              "lineSymbol": {
-                "type": "esriSLS",
-                "style": "esriSLSSolid",
-                "color": "var(--light-800)",
-                "width": 1
-              },
-              "grid": {
-                "type": "esriSLS",
-                "style": "esriSLSDash",
-                "color": "var(--light-300)",
-                "width": 0
-              }
-            }
-          ],
-          "background": "var(--white)",
-          "title": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--black)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 24,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            }
-          },
-          "footer": {
-            "type": "chartText",
-            "visible": true,
-            "content": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 14,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            }
-          },
-          "legend": {
-            "type": "chartLegend",
-            "visible": false,
-            "title": {
-              "type": "chartText",
-              "visible": true,
-              "content": {
-                "type": "esriTS",
-                "color": "var(--dark-800)",
-                "font": {
-                  "family": "Avenir Next",
-                  "size": 20,
-                  "style": "normal",
-                  "weight": "normal",
-                  "decoration": "none"
-                },
-                "horizontalAlignment": "center",
-                "text": ""
-              }
-            },
-            "body": {
-              "type": "esriTS",
-              "color": "var(--dark-800)",
-              "font": {
-                "family": "Avenir Next",
-                "size": 14,
-                "style": "normal",
-                "weight": "normal",
-                "decoration": "none"
-              },
-              "horizontalAlignment": "center",
-              "text": ""
-            },
-            "position": "right"
-          }
-        }
-      },
-      "id": "widget_115",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc3-layer-26",
-          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc3-layer-26",
-          "rootDataSourceId": "dataSource_1",
-          "fields": [
-            "NGAYLAPDAT",
-            "OBJECTID",
-            "KICHCO"
-          ]
-        }
-      ],
-      "outputDataSources": [
-        "widget_115_ouput"
-      ],
-      "toggleEnabled": {
-        "isParseDateEnabled": true
-      }
-    },
-    "widget_116": {
+    "widget_121": {
       "uri": "widgets/chart-widget/",
       "version": "1.14.0",
-      "label": "Chart Widget 2",
+      "label": "Chart Widget",
       "config": {
         "outfieldsSetting": {
           "DHKH": [
@@ -2212,9 +1531,1809 @@
           ]
         }
       },
-      "id": "widget_116",
-      "useDataSourcesEnabled": false,
-      "toggleEnabled": true
+      "id": "widget_121",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cbe-layer-21",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cbe-layer-21",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_122": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 4",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": true,
+          "typechart": "pie",
+          "chartHeight": 500,
+          "chartTitle": {
+            "content": "Tiêu đề",
+            "bold": true,
+            "italic": true,
+            "size": "30px",
+            "font": "Times New Roman",
+            "alignment": "left"
+          },
+          "chartSubtitle": "",
+          "parseDate": "month",
+          "isParseDates": true,
+          "isShowValueOnTop": true,
+          "category": {
+            "value": "NGAYLAPDAT",
+            "label": "esriFieldTypeDate - NGAYLAPDAT",
+            "type": "esriFieldTypeDate",
+            "domain": null
+          },
+          "splitBy": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          },
+          "serries": {
+            "HB775": "#330feb",
+            "DS43777": "#e93505",
+            "Trái": "#310beb",
+            "Phải": "#f2360d",
+            "Giữa": "#efe610",
+            "AIC": "#2d0adb",
+            "KENT": "#e7df09"
+          }
+        }
+      },
+      "id": "widget_122",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_123": {
+      "uri": "widgets/common/filter/",
+      "version": "1.14.0",
+      "label": "Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "OR",
+        "custom": false,
+        "resetAll": true,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "isGroup": false,
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "name": "Đồng Hồ Khách Hàng",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "NGAYLAPDAT",
+                  "HIEUDONGHO",
+                  "VITRILAPDAT"
+                ]
+              }
+            ],
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": true,
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NGAYLAPDAT",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": [
+                      {
+                        "value": 659638800000,
+                        "label": "11/27/1990",
+                        "isUTC": true
+                      },
+                      {
+                        "value": 1069866000000,
+                        "label": "11/27/2003",
+                        "isUTC": true
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "HIEUDONGHO",
+                  "operator": "STRING_OPERATOR_IS_NOT",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": "ABB",
+                        "label": "ABB"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "Hiệu đồng hồ",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "VITRILAPDAT",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "UNIQUE_PILL_WRAP_SELECTOR",
+                    "value": [
+                      {
+                        "value": "T",
+                        "label": "Trái"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "Vị trí lắp đặt",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "(((NGAYLAPDAT BETWEEN timestamp '1990-11-26 17:00:00' AND timestamp '2003-11-27 17:00:00') AND (NGAYLAPDAT <> timestamp '2003-11-27 17:00:00')) AND (LOWER(HIEUDONGHO) <> 'abb') AND (LOWER(VITRILAPDAT) = 't'))",
+              "displaySQL": "(Ngày lắp đặt is between 11/27/1990 and 11/27/2003) and (Hiệu đồng hồ ≠ 'abb') and (Vị trí lắp đặt = 'trái')"
+            }
+          }
+        ]
+      },
+      "id": "widget_123",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "HIEUDONGHO",
+            "NGAYLAPDAT",
+            "VITRILAPDAT"
+          ]
+        }
+      ]
+    },
+    "widget_127": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 19",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_127",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_60"
+        }
+      }
+    },
+    "widget_128": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 5",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": true,
+          "typechart": "bar",
+          "chartHeight": 500,
+          "chartTitle": {
+            "content": "",
+            "size": "20px",
+            "bold": true,
+            "italic": true,
+            "font": "Tahoma",
+            "color": "var(--danger)"
+          },
+          "chartSubtitle": {
+            "content": "Đặc điểm bể",
+            "size": "20px",
+            "font": "Verdana",
+            "color": "var(--danger)",
+            "alignment": "center"
+          },
+          "parseDate": "date",
+          "isParseDates": true,
+          "isShowValueOnTop": true,
+          "category": {
+            "value": "NGAYLAPDAT",
+            "label": "esriFieldTypeDate - NGAYLAPDAT",
+            "type": "esriFieldTypeDate",
+            "domain": null
+          },
+          "splitBy": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          },
+          "serries": {
+            "KENT": "#320fe0",
+            "BAY": "#dd1f0f",
+            "AIC": "#3ac116"
+          }
+        }
+      },
+      "id": "widget_128",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_129": {
+      "uri": "widgets/common/filter/",
+      "version": "1.14.0",
+      "label": "Filter 3",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "isGroup": false,
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "name": "Đồng Hồ Khách Hàng",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "NGAYLAPDAT",
+                  "MAQUAN"
+                ]
+              }
+            ],
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false,
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NGAYLAPDAT",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": [
+                      {
+                        "value": 1104512400000,
+                        "label": "01/1/2005",
+                        "isUTC": true
+                      },
+                      {
+                        "value": 1293814800000,
+                        "label": "01/1/2011",
+                        "isUTC": true
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "MAQUAN",
+                  "operator": "NUMBER_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": 774,
+                        "label": "Quận 5"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "(((NGAYLAPDAT BETWEEN timestamp '2004-12-31 17:00:00' AND timestamp '2011-01-01 17:00:00') AND (NGAYLAPDAT <> timestamp '2011-01-01 17:00:00')) AND (MAQUAN = 774))",
+              "displaySQL": "(Ngày lắp đặt is between 01/1/2005 and 01/1/2011) and (Mã quận = Quận 5)"
+            }
+          }
+        ]
+      },
+      "id": "widget_129",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "MAQUAN",
+            "NGAYLAPDAT"
+          ]
+        }
+      ]
+    },
+    "widget_130": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 20",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_130",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_61"
+        }
+      }
+    },
+    "widget_131": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 6",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 400,
+          "chartTitle": {
+            "content": "Bể nổi",
+            "size": "20px",
+            "color": "var(--dark-400)"
+          },
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "VITRILAPDAT",
+            "label": "esriFieldTypeString - VITRILAPDAT",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMViTriLapDat",
+              "description": "Vị trí lắp đặt",
+              "codedValues": [
+                {
+                  "name": "Phải",
+                  "code": "P"
+                },
+                {
+                  "name": "Trái",
+                  "code": "T"
+                },
+                {
+                  "name": "Giữa",
+                  "code": "G"
+                },
+                {
+                  "name": "Sau",
+                  "code": "S"
+                },
+                {
+                  "name": "Bên hông",
+                  "code": "BH"
+                },
+                {
+                  "name": "Gởi nhờ",
+                  "code": "GN"
+                },
+                {
+                  "name": "Đầu hẻm",
+                  "code": "DH"
+                },
+                {
+                  "name": "Sân chung",
+                  "code": "SC"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          },
+          "serries": {
+            "Phải": "#db4437",
+            "Trái": "#4285f4",
+            "Giữa": "#1f9d58"
+          }
+        }
+      },
+      "id": "widget_131",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_132": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 7",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 400,
+          "chartTitle": {
+            "content": "Bể ngầm",
+            "size": "20px",
+            "color": "var(--dark-500)",
+            "font": "Arial"
+          },
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_132",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_133": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 21",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_133",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_62"
+        }
+      }
+    },
+    "widget_135": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 22",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_135",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_63"
+        }
+      }
+    },
+    "widget_136": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 9",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 500,
+          "chartTitle": {
+            "content": "Bể ngầm",
+            "size": "25px",
+            "color": "var(--danger)",
+            "alignment": "center"
+          },
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_136",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_137": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 10",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 401,
+          "chartTitle": {
+            "content": "Danh sách hiệu đồng hồ",
+            "size": "30px",
+            "alignment": "center",
+            "color": "var(--danger)"
+          },
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "MAPHUONG",
+            "label": "esriFieldTypeString - MAPHUONG",
+            "type": "esriFieldTypeString",
+            "domain": null
+          }
+        }
+      },
+      "id": "widget_137",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_138": {
+      "uri": "widgets/common/filter/",
+      "version": "1.14.0",
+      "label": "Filter 4",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "isGroup": false,
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "name": "Đồng Hồ Khách Hàng",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "NGAYLAPDAT",
+                  "MAQUAN"
+                ]
+              }
+            ],
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false,
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NGAYLAPDAT",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": [
+                      {
+                        "value": 1133197200000,
+                        "label": "11/29/2005",
+                        "isUTC": true
+                      },
+                      {
+                        "value": 1290963600000,
+                        "label": "11/29/2010",
+                        "isUTC": true
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                },
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "MAQUAN",
+                  "operator": "NUMBER_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": 774,
+                        "label": "Quận 5"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "(((NGAYLAPDAT BETWEEN timestamp '2005-11-28 17:00:00' AND timestamp '2010-11-29 17:00:00') AND (NGAYLAPDAT <> timestamp '2010-11-29 17:00:00')) AND (MAQUAN = 774))",
+              "displaySQL": "(Ngày lắp đặt is between 11/29/2005 and 11/29/2010) and (Mã quận = Quận 5)"
+            }
+          }
+        ]
+      },
+      "id": "widget_138",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "MAQUAN",
+            "NGAYLAPDAT"
+          ]
+        }
+      ]
+    },
+    "widget_139": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 11",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": true,
+          "typechart": "column",
+          "chartHeight": 400,
+          "chartTitle": {},
+          "chartSubtitle": "",
+          "parseDate": "year",
+          "isParseDates": true,
+          "isShowValueOnTop": true,
+          "category": {
+            "value": "NGAYLAPDAT",
+            "label": "esriFieldTypeDate - NGAYLAPDAT",
+            "type": "esriFieldTypeDate",
+            "domain": null
+          },
+          "splitBy": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_139",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28-dataView_1",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1",
+          "dataViewId": "dataView_1"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -2227,107 +3346,661 @@
       "type": "WEB_MAP",
       "sourceLabel": "QUANLYTAISAN_V1",
       "itemId": "40bd8bafc19e4e51b728432d86815d31",
-      "portalUrl": "https://cloud.intelli.com.vn/portal"
-    },
-    "widget_115_ouput": {
-      "id": "widget_115_ouput",
-      "type": "FEATURE_LAYER",
-      "label": "Chart Custom statistics",
-      "originDataSources": [
-        {
-          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
-          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
-          "rootDataSourceId": "dataSource_1"
+      "portalUrl": "https://cloud.intelli.com.vn/portal",
+      "childDataSourceJsons": {
+        "18eada3eb8c-layer-2": {
+          "id": "dataSource_1-18eada3eb8c-layer-2",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "QUANLYTAISAN_GISCHOLON_V1",
+          "childDataSourceJsons": {
+            "18eada50cc5-layer-28": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Đồng Hồ Khách Hàng",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/1",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "1",
+              "dataViews": {
+                "dataView_1": {
+                  "id": "dataView_1",
+                  "label": "Data view 1",
+                  "where": {
+                    "logicalOperator": "AND",
+                    "parts": [
+                      {
+                        "type": "SINGLE",
+                        "jimuFieldName": "NGAYLAPDAT",
+                        "operator": "DATE_OPERATOR_IS_BETWEEN",
+                        "valueOptions": {
+                          "isValid": true,
+                          "sourceType": "USER_INPUT",
+                          "inputEditor": "DOUBLE_DATE_PICKER",
+                          "value": [
+                            {
+                              "value": 659811600000,
+                              "label": "11/29/1990",
+                              "isUTC": true
+                            },
+                            {
+                              "value": 1448730000000,
+                              "label": "11/29/2015",
+                              "isUTC": true
+                            }
+                          ]
+                        },
+                        "displayType": "NONE",
+                        "askForValueOptions": null,
+                        "displayLabel": null,
+                        "caseSensitive": false
+                      }
+                    ],
+                    "sql": "(((NGAYLAPDAT BETWEEN timestamp '1990-11-28 17:00:00' AND timestamp '2015-11-29 17:00:00') AND (NGAYLAPDAT <> timestamp '2015-11-29 17:00:00')))",
+                    "displaySQL": "(Ngày lắp đặt is between 11/29/1990 and 11/29/2015)"
+                  }
+                }
+              }
+            },
+            "18eada50cc6-layer-29": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc6-layer-29",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Đồng Hồ DMA",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/0",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "0"
+            },
+            "18eada50cc4-layer-27": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc4-layer-27",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Van Phân Phối",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/2",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "2"
+            },
+            "18eada50cc3-layer-26": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc3-layer-26",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Trụ Họng",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/3",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "3"
+            },
+            "18eada50cc2-layer-25": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc2-layer-25",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Điểm Tài Sản Khác",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/4",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "4"
+            },
+            "18eada50cc1-layer-24": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc1-layer-24",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Mối Nối Phân Phối",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/5",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "5"
+            },
+            "18eada50cc0-layer-23": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cc0-layer-23",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Giếng",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/6",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "6"
+            },
+            "18eada50cbf-layer-22": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cbf-layer-22",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Điểm Tín Hiệu",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/7",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "7"
+            },
+            "18eada50cbe-layer-21": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cbe-layer-21",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Thủy Đài",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/8",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "8"
+            },
+            "18eada50cbd-layer-20": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cbd-layer-20",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Điểm Cuối Ống",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/9",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "9"
+            },
+            "18eada50cbc-layer-19": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cbc-layer-19",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Ống Ngánh",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/10",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "10"
+            },
+            "18eada50cbb-layer-18": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cbb-layer-18",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Ống Phân Phối",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/11",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "11"
+            },
+            "18eada50cba-layer-17": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cba-layer-17",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Tháp Cắt Áp",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/12",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "12"
+            },
+            "18eada50cb9-layer-16": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb9-layer-16",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Hầm Kỹ Thuật P",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/13",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "13"
+            },
+            "18eada50cb8-layer-15": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb8-layer-15",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Công Trình Xử Lý Nước P",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/14",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "14"
+            },
+            "18eada50cb7-layer-14": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb7-layer-14",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Công Trình Xử Lý Nước A",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/15",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "15"
+            },
+            "18eada50cb6-layer-13": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb6-layer-13",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Điểm Đo GPS",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/16",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "16"
+            },
+            "18eada50cb5-layer-12": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb5-layer-12",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Nhà Máy Nước P",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/17",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "17"
+            },
+            "18eada50cb4-layer-11": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb4-layer-11",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Sự Kiện",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/18",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "18"
+            },
+            "18eada50cb3-layer-10": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb3-layer-10",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Trạm Bơm P",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/19",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "19"
+            },
+            "18eada50cb2-layer-9": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb2-layer-9",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Tuyến Tài Sản Khác",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/20",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "20"
+            },
+            "18eada50cb0-layer-8": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cb0-layer-8",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Cơ Sở Hạ Tầng",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/21",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "21"
+            },
+            "18eada50caf-layer-7": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50caf-layer-7",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Nhà Máy Nước A",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/22",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "22"
+            },
+            "18eada50cae-layer-6": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cae-layer-6",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Khu Vực",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/23",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "23"
+            },
+            "18eada50cad-layer-5": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cad-layer-5",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Hầm Kỹ Thuật A",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/24",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "24"
+            },
+            "18eada50cac-layer-4": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50cac-layer-4",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "Trạm Bơm A",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/25",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "25"
+            },
+            "18eada50caa-layer-3": {
+              "id": "dataSource_1-18eada3eb8c-layer-2-18eada50caa-layer-3",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "DMA",
+              "url": "https://cloud.intelli.com.vn/server/rest/services/Devonly/QUANLYTAISAN_GISCHOLON_V1/FeatureServer/26",
+              "portalUrl": "https://cloud.intelli.com.vn/portal",
+              "itemId": "fee0c860cf9740118a0fadfd84212830",
+              "layerId": "26"
+            }
+          },
+          "isHidden": false
         }
-      ],
-      "isOutputFromWidget": true,
-      "isDataInDataSourceInstance": true,
-      "schema": {
-        "idField": "__outputid__",
-        "label": "Chart Custom statistics",
-        "fields": {
-          "__outputid__": {
-            "jimuName": "__outputid__",
-            "alias": "OBJECTID",
-            "type": "NUMBER",
-            "name": "__outputid__"
-          },
-          "NGAYLAPDAT": {
-            "jimuName": "NGAYLAPDAT",
-            "name": "NGAYLAPDAT",
-            "type": "DATE",
-            "esriType": "esriFieldTypeDate",
-            "alias": "Ngày lắp đặt",
-            "format": null,
-            "originFields": [
-              "NGAYLAPDAT"
-            ]
-          },
-          "count_of_OBJECTID_of_0": {
-            "jimuName": "count_of_OBJECTID_of_0",
-            "name": "count_of_OBJECTID_of_0",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "Count of OBJECTID of 0",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "OBJECTID",
-              "KICHCO"
-            ]
-          },
-          "count_of_OBJECTID_of_100": {
-            "jimuName": "count_of_OBJECTID_of_100",
-            "name": "count_of_OBJECTID_of_100",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "Count of OBJECTID of 100",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "OBJECTID",
-              "KICHCO"
-            ]
-          },
-          "count_of_OBJECTID_of_125": {
-            "jimuName": "count_of_OBJECTID_of_125",
-            "name": "count_of_OBJECTID_of_125",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "Count of OBJECTID of 125",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "OBJECTID",
-              "KICHCO"
-            ]
-          },
-          "count_of_OBJECTID_of_150": {
-            "jimuName": "count_of_OBJECTID_of_150",
-            "name": "count_of_OBJECTID_of_150",
-            "type": "NUMBER",
-            "esriType": "esriFieldTypeOID",
-            "alias": "Count of OBJECTID of 150",
-            "format": {
-              "digitSeparator": false,
-              "places": 0
-            },
-            "originFields": [
-              "OBJECTID",
-              "KICHCO"
-            ]
-          }
-        }
-      }
+      },
+      "isHidden": false
     }
   },
-  "messageConfigs": {},
+  "messageConfigs": {
+    "messageConfig_2": {
+      "id": "messageConfig_2",
+      "widgetId": "widget_122",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1732679357508",
+          "messageWidgetId": "widget_122",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "HIEUDONGHO",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": "ABB",
+                        "label": "ABB"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((LOWER(HIEUDONGHO) = 'abb'))",
+              "displaySQL": "(Hiệu đồng hồ = 'abb')"
+            },
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "HIEUDONGHO"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_3": {
+      "id": "messageConfig_3",
+      "widgetId": "widget_123",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_122-query-1732677002580",
+          "widgetId": "widget_122",
+          "messageWidgetId": "widget_123",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "NGAYLAPDAT"
+              ]
+            },
+            "fieldName": "NGAYLAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_5": {
+      "id": "messageConfig_5",
+      "widgetId": "widget_129",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_128-query-1732787830116",
+          "widgetId": "widget_128",
+          "messageWidgetId": "widget_129",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "NGAYLAPDAT"
+              ]
+            },
+            "fieldName": "NGAYLAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_131-query-1732788300210",
+          "widgetId": "widget_131",
+          "messageWidgetId": "widget_129",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "VITRILAPDAT"
+              ]
+            },
+            "fieldName": "VITRILAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_132-query-1732788314179",
+          "widgetId": "widget_132",
+          "messageWidgetId": "widget_129",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "HIEUDONGHO"
+              ]
+            },
+            "fieldName": "HIEUDONGHO"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
+    },
+    "messageConfig_6": {
+      "id": "messageConfig_6",
+      "widgetId": "widget_128",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1732787855317",
+          "messageWidgetId": "widget_128",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_7": {
+      "id": "messageConfig_7",
+      "widgetId": "widget_132",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1732788337067",
+          "messageWidgetId": "widget_132",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_8": {
+      "id": "messageConfig_8",
+      "widgetId": "widget_131",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "filter-data-record-action-1732788347077",
+          "messageWidgetId": "widget_131",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.14.0",
+          "useDataSources": [
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1"
+            },
+            {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": []
+            }
+          ]
+        }
+      ]
+    },
+    "messageConfig_9": {
+      "id": "messageConfig_9",
+      "widgetId": "widget_138",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_136-query-1732854309568",
+          "widgetId": "widget_136",
+          "messageWidgetId": "widget_138",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "VITRILAPDAT"
+              ]
+            },
+            "fieldName": "VITRILAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_137-query-1732854389492",
+          "widgetId": "widget_137",
+          "messageWidgetId": "widget_138",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "HIEUDONGHO"
+              ]
+            },
+            "fieldName": "HIEUDONGHO"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_139-query-1732865936526",
+          "widgetId": "widget_139",
+          "messageWidgetId": "widget_138",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "NGAYLAPDAT"
+              ]
+            },
+            "fieldName": "NGAYLAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
+    }
+  },
   "attributes": {
     "portalUrl": "https://cloud.intelli.com.vn/portal"
   },
@@ -2349,8 +4022,15 @@
       ]
     }
   ],
-  "timestamp": 1730434116674,
-  "connections": [],
+  "timestamp": 1733109727214,
+  "connections": [
+    {
+      "type": "portal",
+      "portalUrl": "https://noc.capnuoccholon.com.vn/portal",
+      "clientId": "IZUGcWwqFwouAq4T",
+      "portalVersion": 9.2
+    }
+  ],
   "header": {
     "layout": {
       "LARGE": "layout_47"
