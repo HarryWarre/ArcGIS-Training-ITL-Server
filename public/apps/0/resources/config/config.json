@@ -985,8 +985,8 @@
             }
           },
           "bbox": {
-            "left": 6,
-            "width": 6,
+            "left": 4,
+            "width": 8,
             "height": "498px"
           }
         }
@@ -1007,8 +1007,8 @@
             "heightMode": "fit"
           },
           "bbox": {
-            "left": 4,
-            "width": 8,
+            "left": 3,
+            "width": 6,
             "height": "500px"
           }
         },
@@ -1022,7 +1022,21 @@
           },
           "bbox": {
             "left": 0,
-            "width": 4,
+            "width": 3,
+            "height": "498px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_140",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 9,
+            "width": 3,
             "height": "498px"
           }
         }
@@ -1031,7 +1045,8 @@
       "label": "Default",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ]
     }
   },
@@ -2929,6 +2944,10 @@
               "mergePolicy": "esriMPTDefaultValue",
               "splitPolicy": "esriSPTDefaultValue"
             }
+          },
+          "serries": {
+            "SIEMENS": "#2c11b2",
+            "KENT": "#049546"
           }
         }
       },
@@ -2959,7 +2978,7 @@
         "optionsChart": {
           "isSplitBy": false,
           "typechart": "pie",
-          "chartHeight": 401,
+          "chartHeight": 500,
           "chartTitle": {
             "content": "Danh sách hiệu đồng hồ",
             "size": "30px",
@@ -3332,6 +3351,47 @@
           "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
           "rootDataSourceId": "dataSource_1",
           "dataViewId": "dataView_1"
+        }
+      ]
+    },
+    "widget_140": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 12",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 500,
+          "chartTitle": {},
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "MADMA",
+            "label": "esriFieldTypeString - MADMA",
+            "type": "esriFieldTypeString",
+            "domain": null
+          }
+        }
+      },
+      "id": "widget_140",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
         }
       ]
     }
@@ -3997,6 +4057,26 @@
           },
           "version": "1.14.0",
           "useDataSources": []
+        },
+        {
+          "actionId": "widget_140-query-1733110700727",
+          "widgetId": "widget_140",
+          "messageWidgetId": "widget_138",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "TINHTRANG"
+              ]
+            },
+            "fieldName": "TINHTRANG"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
         }
       ]
     }
@@ -4022,7 +4102,7 @@
       ]
     }
   ],
-  "timestamp": 1733109727214,
+  "timestamp": 1733111504199,
   "connections": [
     {
       "type": "portal",
