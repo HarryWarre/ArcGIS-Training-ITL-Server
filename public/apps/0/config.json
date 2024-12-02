@@ -71,7 +71,7 @@
       "layout": {
         "LARGE": "layout_34"
       },
-      "isDefault": true,
+      "isDefault": false,
       "isVisible": true,
       "label": "Child Second 1",
       "header": false,
@@ -125,7 +125,7 @@
       "layout": {
         "LARGE": "layout_40"
       },
-      "isDefault": false,
+      "isDefault": true,
       "isVisible": true,
       "label": "Map",
       "header": false,
@@ -417,7 +417,7 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_93",
+          "widgetId": "widget_141",
           "bbox": {
             "left": "0px",
             "right": "800px",
@@ -429,52 +429,27 @@
           "setting": {
             "heightMode": "fixed"
           }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_41": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_94",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 2,
-            "height": "500px"
-          }
         },
         "1": {
           "type": "WIDGET",
-          "widgetId": "widget_95",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
+          "widgetId": "widget_143",
           "bbox": {
-            "left": 3,
-            "width": 8,
-            "height": "400px"
+            "left": "0px",
+            "right": "800px",
+            "top": "300px",
+            "bottom": "800px",
+            "width": "800px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
           }
         }
       },
-      "type": "ROW",
-      "label": "Default",
       "order": [
         "0",
         "1"
       ]
-    },
-    "layout_42": {
-      "content": {},
-      "type": "FIXED",
-      "label": "Map FixedLayout"
     },
     "layout_43": {
       "type": "FLOW",
@@ -1048,6 +1023,93 @@
         "1",
         "2"
       ]
+    },
+    "layout_64": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_142",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 8,
+            "height": 500
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_146",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 8,
+            "width": 4,
+            "height": 54
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_65": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_144",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 6,
+            "height": "500px"
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_145",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 9,
+            "width": 3,
+            "height": "498px"
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_147",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 6,
+            "width": 3,
+            "height": 498
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0",
+        "2",
+        "1"
+      ]
     }
   },
   "exbVersion": "1.14.0",
@@ -1184,57 +1246,6 @@
       "layouts": {
         "DEFAULT": {
           "LARGE": "layout_32"
-        }
-      }
-    },
-    "widget_93": {
-      "uri": "widgets/layout/row/",
-      "version": "1.14.0",
-      "label": "Block 13",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_93",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_41"
-        }
-      }
-    },
-    "widget_94": {
-      "uri": "widgets/custom-sidebar-widget-setLink/",
-      "version": "1.14.0",
-      "label": "Custom Sidebar Widget 9",
-      "config": {
-        "exampleConfigProperty": "test"
-      },
-      "id": "widget_94"
-    },
-    "widget_95": {
-      "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.14.0",
-      "label": "Map 2",
-      "config": {
-        "toolConfig": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true
-        },
-        "isUseCustomMapState": false
-      },
-      "id": "widget_95",
-      "layouts": {
-        "MapFixedLayout": {
-          "LARGE": "layout_42"
         }
       }
     },
@@ -3146,7 +3157,7 @@
           "chartHeight": 400,
           "chartTitle": {},
           "chartSubtitle": "",
-          "parseDate": "year",
+          "parseDate": "month",
           "isParseDates": true,
           "isShowValueOnTop": true,
           "category": {
@@ -3386,6 +3397,822 @@
         }
       },
       "id": "widget_140",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_141": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 23",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_141",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_64"
+        }
+      }
+    },
+    "widget_142": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 13",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": true,
+          "typechart": "column",
+          "chartHeight": 490,
+          "chartTitle": {
+            "content": "Tiêu đề",
+            "font": "Verdana"
+          },
+          "chartSubtitle": {
+            "content": "Tiêu đề con",
+            "size": "30px",
+            "font": "Tahoma"
+          },
+          "parseDate": "month",
+          "isParseDates": true,
+          "isShowValueOnTop": true,
+          "category": {
+            "value": "NGAYLAPDAT",
+            "label": "esriFieldTypeDate - NGAYLAPDAT",
+            "type": "esriFieldTypeDate",
+            "domain": null
+          },
+          "splitBy": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_142",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_143": {
+      "uri": "widgets/layout/row/",
+      "version": "1.14.0",
+      "label": "Block 24",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_143",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_65"
+        }
+      }
+    },
+    "widget_144": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 14",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": true,
+          "typechart": "pie",
+          "chartHeight": 400,
+          "chartTitle": {},
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "HIEUDONGHO",
+            "label": "esriFieldTypeString - HIEUDONGHO",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMHieuDongHo",
+              "description": "Hiệu đồng hồ",
+              "codedValues": [
+                {
+                  "name": "ABB",
+                  "code": "ABB"
+                },
+                {
+                  "name": "AI-MAM",
+                  "code": "AI-MAM"
+                },
+                {
+                  "name": "ASHAHI",
+                  "code": "ASHAHI"
+                },
+                {
+                  "name": "KENT",
+                  "code": "KENT"
+                },
+                {
+                  "name": "MINOX",
+                  "code": "MINOX"
+                },
+                {
+                  "name": "SAPPEL",
+                  "code": "SAPPEL"
+                },
+                {
+                  "name": "SIEMENS",
+                  "code": "SIEMENS"
+                },
+                {
+                  "name": "TACHI",
+                  "code": "TACHI"
+                },
+                {
+                  "name": "WOLTEX",
+                  "code": "WOLTEX"
+                },
+                {
+                  "name": "ACT",
+                  "code": "ACT"
+                },
+                {
+                  "name": "AIC",
+                  "code": "AIC"
+                },
+                {
+                  "name": "ASA",
+                  "code": "ASA"
+                },
+                {
+                  "name": "BAY",
+                  "code": "BAY"
+                },
+                {
+                  "name": "FLOS",
+                  "code": "FLOS"
+                },
+                {
+                  "name": "HAN",
+                  "code": "HAN"
+                },
+                {
+                  "name": "HYDRO",
+                  "code": "HYDRO"
+                },
+                {
+                  "name": "ITR",
+                  "code": "ITR"
+                },
+                {
+                  "name": "IVE",
+                  "code": "IVE"
+                },
+                {
+                  "name": "LUG",
+                  "code": "LUG"
+                },
+                {
+                  "name": "MEI",
+                  "code": "MEI"
+                },
+                {
+                  "name": "MUL",
+                  "code": "MUL"
+                },
+                {
+                  "name": "PRECI",
+                  "code": "PRECI"
+                },
+                {
+                  "name": "SENS",
+                  "code": "SENS"
+                },
+                {
+                  "name": "ZEN",
+                  "code": "ZEN"
+                },
+                {
+                  "name": "KROHNE",
+                  "code": "KROHNE"
+                },
+                {
+                  "name": "ISOMAG",
+                  "code": "ISOMAG"
+                },
+                {
+                  "name": "AQUA",
+                  "code": "AQUA"
+                },
+                {
+                  "name": "DELTA",
+                  "code": "DELTA"
+                },
+                {
+                  "name": "DIEHL",
+                  "code": "DIEHL"
+                },
+                {
+                  "name": "MADDALENA",
+                  "code": "MAD"
+                },
+                {
+                  "name": "ELSTER",
+                  "code": "ELS"
+                },
+                {
+                  "name": "INV",
+                  "code": "INV"
+                },
+                {
+                  "name": "OCT",
+                  "code": "OCT"
+                },
+                {
+                  "name": "MERLION",
+                  "code": "MER"
+                },
+                {
+                  "name": "AQM",
+                  "code": "AQM"
+                },
+                {
+                  "name": "AQP",
+                  "code": "AQP"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                },
+                {
+                  "name": "BONYTO",
+                  "code": "BONYTO"
+                },
+                {
+                  "name": "MEINECKER",
+                  "code": "MEINECKER"
+                },
+                {
+                  "name": "PLOSTAS",
+                  "code": "PLOSTAS"
+                },
+                {
+                  "name": "TAG",
+                  "code": "TAG"
+                },
+                {
+                  "name": "P-METTER",
+                  "code": "P-METTER"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          },
+          "serries": {
+            "KENT": "#2f0ed3"
+          }
+        }
+      },
+      "id": "widget_144",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_145": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 15",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 400,
+          "chartTitle": {},
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "VITRILAPDAT",
+            "label": "esriFieldTypeString - VITRILAPDAT",
+            "type": "esriFieldTypeString",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMViTriLapDat",
+              "description": "Vị trí lắp đặt",
+              "codedValues": [
+                {
+                  "name": "Phải",
+                  "code": "P"
+                },
+                {
+                  "name": "Trái",
+                  "code": "T"
+                },
+                {
+                  "name": "Giữa",
+                  "code": "G"
+                },
+                {
+                  "name": "Sau",
+                  "code": "S"
+                },
+                {
+                  "name": "Bên hông",
+                  "code": "BH"
+                },
+                {
+                  "name": "Gởi nhờ",
+                  "code": "GN"
+                },
+                {
+                  "name": "Đầu hẻm",
+                  "code": "DH"
+                },
+                {
+                  "name": "Sân chung",
+                  "code": "SC"
+                },
+                {
+                  "name": "N/A",
+                  "code": "N/A"
+                },
+                {
+                  "name": "Khác",
+                  "code": "-1"
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_145",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1"
+        }
+      ]
+    },
+    "widget_146": {
+      "uri": "widgets/common/filter/",
+      "version": "1.14.0",
+      "label": "Filter 5",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": false,
+        "filterItems": [
+          {
+            "isGroup": false,
+            "icon": {
+              "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 16 16\"><path fill=\"#000\" fill-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 0 0 .852-.356V6.825l5.382-5.295zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042z\" clip-rule=\"evenodd\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "Filter",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "size": 14
+              }
+            },
+            "name": "Đồng Hồ Khách Hàng",
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+                "rootDataSourceId": "dataSource_1",
+                "fields": [
+                  "NGAYLAPDAT"
+                ]
+              }
+            ],
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false,
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "NGAYLAPDAT",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": [
+                      {
+                        "value": 975690000000,
+                        "label": "12/2/2000",
+                        "isUTC": true
+                      },
+                      {
+                        "value": 1133456400000,
+                        "label": "12/2/2005",
+                        "isUTC": true
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": null,
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "(((NGAYLAPDAT BETWEEN timestamp '2000-12-01 17:00:00' AND timestamp '2005-12-02 17:00:00') AND (NGAYLAPDAT <> timestamp '2005-12-02 17:00:00')))",
+              "displaySQL": "(Ngày lắp đặt is between 12/2/2000 and 12/2/2005)"
+            }
+          }
+        ]
+      },
+      "id": "widget_146",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+          "rootDataSourceId": "dataSource_1",
+          "fields": [
+            "NGAYLAPDAT"
+          ]
+        }
+      ]
+    },
+    "widget_147": {
+      "uri": "widgets/chart-custom-parsedate/",
+      "version": "1.14.0",
+      "label": "Chart Custom ParseDate 16",
+      "config": {
+        "outfieldsSetting": {
+          "DHKH": [
+            "CODONGHO"
+          ],
+          "DMA": [
+            "MADMA",
+            "ShapeArea"
+          ]
+        },
+        "optionsChart": {
+          "isSplitBy": false,
+          "typechart": "pie",
+          "chartHeight": 400,
+          "chartTitle": {},
+          "chartSubtitle": "",
+          "parseDate": "date",
+          "isParseDates": false,
+          "isShowValueOnTop": false,
+          "category": {
+            "value": "CODONGHO",
+            "label": "esriFieldTypeSmallInteger - CODONGHO",
+            "type": "esriFieldTypeSmallInteger",
+            "domain": {
+              "type": "codedValue",
+              "name": "DMCoDongHoKhachHang",
+              "description": "Cỡ đồng hồ khách hàng",
+              "codedValues": [
+                {
+                  "name": "N/A",
+                  "code": 0
+                },
+                {
+                  "name": "15mm",
+                  "code": 15
+                },
+                {
+                  "name": "20mm",
+                  "code": 20
+                },
+                {
+                  "name": "25mm",
+                  "code": 25
+                },
+                {
+                  "name": "40mm",
+                  "code": 40
+                },
+                {
+                  "name": "50mm",
+                  "code": 50
+                },
+                {
+                  "name": "60mm ",
+                  "code": 60
+                },
+                {
+                  "name": "75mm",
+                  "code": 75
+                },
+                {
+                  "name": "80mm",
+                  "code": 80
+                },
+                {
+                  "name": "100mm",
+                  "code": 100
+                },
+                {
+                  "name": "150mm",
+                  "code": 150
+                },
+                {
+                  "name": "200mm",
+                  "code": 200
+                },
+                {
+                  "name": "250mm",
+                  "code": 250
+                },
+                {
+                  "name": "300mm",
+                  "code": 300
+                },
+                {
+                  "name": "350mm",
+                  "code": 350
+                },
+                {
+                  "name": "400mm",
+                  "code": 400
+                },
+                {
+                  "name": "500mm",
+                  "code": 500
+                },
+                {
+                  "name": "600mm",
+                  "code": 600
+                },
+                {
+                  "name": "700mm",
+                  "code": 700
+                },
+                {
+                  "name": "800mm",
+                  "code": 800
+                },
+                {
+                  "name": "Khác",
+                  "code": -1
+                }
+              ],
+              "mergePolicy": "esriMPTDefaultValue",
+              "splitPolicy": "esriSPTDefaultValue"
+            }
+          }
+        }
+      },
+      "id": "widget_147",
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
@@ -4079,6 +4906,93 @@
           "useDataSources": []
         }
       ]
+    },
+    "messageConfig_10": {
+      "id": "messageConfig_10",
+      "widgetId": "widget_146",
+      "messageType": "DATA_SOURCE_FILTER_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_142-query-1733113744018",
+          "widgetId": "widget_142",
+          "messageWidgetId": "widget_146",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "NGAYLAPDAT"
+              ]
+            },
+            "fieldName": "NGAYLAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_144-query-1733113796867",
+          "widgetId": "widget_144",
+          "messageWidgetId": "widget_146",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "HIEUDONGHO"
+              ]
+            },
+            "fieldName": "HIEUDONGHO"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_145-query-1733113978322",
+          "widgetId": "widget_145",
+          "messageWidgetId": "widget_146",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "VITRILAPDAT"
+              ]
+            },
+            "fieldName": "VITRILAPDAT"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        },
+        {
+          "actionId": "widget_147-query-1733114331226",
+          "widgetId": "widget_147",
+          "messageWidgetId": "widget_146",
+          "actionName": "query",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "mainDataSourceId": "dataSource_1-18eada3eb8c-layer-2-18eada50cc5-layer-28",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "TINHTRANGQLDHN"
+              ]
+            },
+            "fieldName": "TINHTRANGQLDHN"
+          },
+          "version": "1.14.0",
+          "useDataSources": []
+        }
+      ]
     }
   },
   "attributes": {
@@ -4102,7 +5016,7 @@
       ]
     }
   ],
-  "timestamp": 1733111504199,
+  "timestamp": 1733114459775,
   "connections": [
     {
       "type": "portal",
